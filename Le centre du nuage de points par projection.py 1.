@@ -30,9 +30,9 @@ if point_pair:
         proj_y = y1 + t_clamped * dy
         projections.append((proj_x, proj_y))
         if projections:
-        n_p = len(projections)
-        center = (
-            sum(p[0] for p in projections) / n_p,
-            sum(p[1] for p in projections) / n_p
-        )
-        print(f"Centre calculé : {center}")
+         n_p = len(projections)
+         center = (
+         sum(p[0] for p in projections) / n_p,
+         sum(p[1] for p in projections) / n_p
+         )
+print(f"Centre calculé : {center}")
